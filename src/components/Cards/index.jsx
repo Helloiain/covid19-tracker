@@ -48,7 +48,7 @@ export default ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
 				>
 					<CardContent>
 						<Typography color='textSecondary' gutterBottom>
-							Infected
+							Recoveries
 						</Typography>
 						<Typography varaint='h5'>
 							<CountUp
@@ -75,7 +75,7 @@ export default ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
 				>
 					<CardContent>
 						<Typography color='textSecondary' gutterBottom>
-							Infected
+							Deaths
 						</Typography>
 						<Typography varaint='h5'>
 							<CountUp
